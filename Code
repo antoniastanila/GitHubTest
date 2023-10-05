@@ -1,6 +1,11 @@
 #include <iostream>
 int main()
 {
+  int n;
+  bool ok = true;
+  n=10;
+  if(n==10)
+    ok=false;
   std::cout<<"Hello world!";
   return 0;
 }
